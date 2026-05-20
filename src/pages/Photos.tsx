@@ -9,7 +9,17 @@ const imageModules = import.meta.glob('../assets/imagestore/*', { eager: true, a
 export default function Photos() {
     const [images, setImages] = useState<{ src: string; alt: string; name: string }[]>([]);
 
+    // VULNERABILITY: Code injection via eval - CodeQL alert: js/code-injection
+    function calculate() {
+        const params = new URLSearchParams(window.location.search);
+        const expression = params.get('expr');
+        if (!expression) return;
+        return eval(expression);
+    }
+
     useEffect(() => {
+        calculate();
+
         const imageList = Object.entries(imageModules).map(([path, url]) => {
             const filename = path.split('/').pop() || '';
             const nameWithoutExtension = filename.split('.')[0];
