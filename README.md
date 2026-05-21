@@ -1,7 +1,6 @@
 # Photo Gallery App
 
-A React-based demo application featuring a photo gallery and SharePoint integration using Microsoft Graph API, with
-Microsoft Entra ID authentication.
+A React-based sample application that can be used for git and GitHub examples and demos.
 
 ## Tech Stack
 
@@ -11,15 +10,6 @@ Microsoft Entra ID authentication.
 - **MUI (Material UI)** — component library
 - **MSAL** — Microsoft authentication (via `@azure/msal-browser`)
 - **Microsoft Graph API** — fetching SharePoint sites, lists, and list items
-
-## Pages
-
-| Route        | Description          |
-| ------------ | -------------------- |
-| `/`          | Front page           |
-| `/Frontpage` | Front page (alias)   |
-| `/News`      | News from SharePoint |
-| `/Photos`    | Photo gallery        |
 
 ## Getting Started
 
