@@ -13,9 +13,9 @@ export default function Contact() {
 				p: 4,
 			}}>
 			<Typography variant='h3' component='h1' gutterBottom>
-				{'Contact us for more information'}
+				{'Got questions?'}
 			</Typography>
-			<Typography variant='body1'>{'We would love to hear from you!'}</Typography>
+			<Typography variant='body1'>{'We’d love to hear from you — once we figure out how to build a contact form.'}</Typography>
 		</Box>
 	);
 }

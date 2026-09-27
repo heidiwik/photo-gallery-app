@@ -2,6 +2,14 @@
 
 A React-based sample application that can be used for git and GitHub examples and demos.
 
+# Important
+
+This repository is intended for demonstration and practice purposes. It is used for security training and may contain known vulnerabilities.
+
+It is intended to be run locally in a controlled environment for learning and experimentation.
+
+**Do not use this repository in production or expose it to the public internet.**
+
 ## Tech Stack
 
 - **React 19** with TypeScript

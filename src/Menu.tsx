@@ -3,7 +3,8 @@ import { AppBar, Box, Toolbar, Typography, Container, Button } from '@mui/materi
 
 import { Link } from 'react-router-dom';
 
-const pages = ['Frontpage', 'News', 'Photos', 'Contact', 'AboutUs'];
+// const pages = ['Frontpage', 'News', 'Photos', 'Contact', 'AboutUs'];
+const pages = ['Home', 'Photos', 'Contact'];
 
 function ResponsiveAppBar() {
 	return (

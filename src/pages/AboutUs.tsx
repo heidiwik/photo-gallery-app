@@ -15,7 +15,7 @@ export default function AboutUs() {
 			<Typography variant='h3' component='h1' gutterBottom>
 				{'This should be company info, but we haven\'t decided on that yet.'}
 			</Typography>
-			<Typography variant='body1'>{'Company description here'}</Typography>
+			<Typography variant='body1'>{'Add company description here'}</Typography>
 		</Box>
 	);
 }
